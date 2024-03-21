@@ -3,7 +3,6 @@
     border: 0;
     text-decoration: none !important;
     font-family: 'Inter', sans-serif;
-
 }
 
 body {
@@ -11,12 +10,8 @@ body {
     background-size: contain;
     background-repeat: repeat;
     height: 100vh;
-
-
     align-items: center;
     justify-content: center;
-
-
 }
 
 .card {
@@ -76,6 +71,32 @@ h1 {
     font-size: 12px
 }
 
+.redes-1>ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.redes-1>ul>li {
+    border: 1px solid #eb601f;
+    border-radius: 50%;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.redes-1>ul>li>a {
+    color: #eb601f;
+   }
+
+.redes-1>ul>li>a>i {
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+
 .redes>ul {
     padding: 0;
 }
@@ -122,11 +143,13 @@ h1 {
     background: rgb(231, 66, 24);
     background: linear-gradient(180deg, rgba(231, 66, 24, 1) 0%, rgba(1, 1, 1, 1) 100%);
 }
-.mortarboard:hover{
+
+.mortarboard:hover {
     background: linear-gradient(180deg, #2F4F4F 0%, #006400 100%);
 }
+
 .piggy:hover {
-        background: linear-gradient(180deg, #9400D3 0%, #6495ED 100%);
+    background: linear-gradient(180deg, #9400D3 0%, #6495ED 100%);
 }
 
 .cash:hover {
@@ -139,7 +162,8 @@ h1 {
     background: radial-gradient(circle, rgba(0, 242, 234, 1) 3%, rgba(255, 0, 80, 1) 35%, rgba(0, 0, 0, 1) 100%);
 }
 
-.redes>ul>li>a:hover {
+.redes>ul>li>a:hover,
+.redes-1>ul>li>a:hover {
     color: beige;
 }
 

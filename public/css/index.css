@@ -152,9 +152,9 @@ h1 {
     background: linear-gradient(180deg, #9400D3 0%, #6495ED 100%);
 }
 
-.cash:hover {
+.linkedin:hover {
     background: rgb(231, 66, 24);
-    background: linear-gradient(180deg, #7F5C0B 0%, rgba(1, 1, 1, 1) 100%);
+    background: #0e76a8;
 }
 
 .tiktok:hover {
